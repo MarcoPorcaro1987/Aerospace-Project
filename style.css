@@ -1,0 +1,81 @@
+.carousel-inner {
+  height: 100vh;
+  margin: 0px 0px 0px 0px;
+}
+
+#HomePageName{
+  position: absolute;
+  font-family: 'Black Ops One', cursive;
+  top:0;
+  left:10px;
+  margin: 0px 0px 0px 0px;
+  font-size: 50px;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next {
+  color: black !important;
+}
+
+#button{
+  position: absolute;
+  color: #5452C1;
+  top:130px;
+  left:15px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* design page style */
+.img-card{
+    height: 400px;
+    object-fit: contain;
+}
+
+.navbar{
+    background-color: #5452C1;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    color: white;
+}
+
+.overview {
+    font-family: 'Black Ops One', cursive;
+}
+/* ----specification page style------ */
+.speci-h1{ 
+  text-align: center;
+  color: red;
+}
+
+.speci-img  img{
+  
+  width: 200px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.banner-specification {  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner-specification h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner-specification p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+@media screen and (min-width: 601px) {
+  #HomePageName {
+    font-size: 80px;
+  }
+}
