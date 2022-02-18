@@ -3,13 +3,16 @@
   margin: 0px 0px 0px 0px;
 }
 
-#HomePageName{
+.containerHP{
+  display: grid;
   position: absolute;
-  font-family: 'Black Ops One', cursive;
   top:0;
-  left:10px;
-  margin: 0px 0px 0px 0px;
-  font-size: 50px;
+  padding: 0px 0px 0px 20px;
+}
+
+#HomePageName{
+  font-family: 'Black Ops One', cursive;
+  font-size: 80px;
 }
 
 .carousel-control .icon-prev, .carousel-control .icon-next {
@@ -17,10 +20,6 @@
 }
 
 #button{
-  position: absolute;
-  color: #5452C1;
-  top:130px;
-  left:15px;
   margin: 0px 0px 0px 0px;
 }
 
@@ -74,8 +73,18 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (max-width: 1000px) {
   #HomePageName {
-    font-size: 80px;
+    font-size: 50px;
+  }
+
+  #button{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #HomePageName {
+    font-size: 30px;
   }
 }
