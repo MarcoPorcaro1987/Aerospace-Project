@@ -41,6 +41,12 @@
 .overview {
     font-family: 'Black Ops One', cursive;
 }
+
+.list-group{
+  width: 30%;
+  margin: auto;
+}
+
 /* ----specification page style------ */
 .speci-h1{ 
   text-align: center;
